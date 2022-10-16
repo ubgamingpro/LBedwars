@@ -21,6 +21,7 @@ class LBedwars : JavaPlugin() {
         getCommand("setspawn").executor = setSpawnCommand(this)
         getCommand("bedwars").executor = mainCommand(this)
         getCommand("joinnpc").executor = joinBWNPC(this)
+        logger.info("Loaded Lopixel Bedwars!)
     }
 
     override fun onDisable() {
