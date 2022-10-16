@@ -1,0 +1,22 @@
+name: LBedwars
+version: '${project.version}'
+main: dev.cg5235.lbedwars.LBedwars
+api-version: 1.8
+authors: [ CoderGamer5235 ]
+depends: [Citizens]
+description: A custom bedwars plugin made for Lopixel Network
+website: dev.cg5235.io
+commands:
+  spawn:
+    description: "Sends you to the spawn"
+    aliases: [s]
+  setspawn:
+    description: "sets the spawn location"
+    aliases: [ss, sspawn, sets]
+  bedwars:
+    description: "The main bedwars command"
+    aliases: [bw, bedw, bwars]
+  joinnpc:
+    description: "Summons the solo bedwars npc"
+    aliases: [jn]
+
